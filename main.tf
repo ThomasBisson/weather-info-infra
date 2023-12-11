@@ -24,7 +24,7 @@ resource "aws_iam_role_policy" "logs_policy" {
           "logs:PutLogEvents"
         ]
         Effect   = "Allow"
-        Resource = "arn:aws:logs:eu-west-1:600211763550:log-group:/aws/lambda/weather-info-api:*"
+        Resource = "arn:aws:logs:eu-west-1:600211763550:log-group:/aws/lambda/weather-info-api-${terraform.workspace}:*"
       },
       {
         Action = [
