@@ -11,7 +11,7 @@ Use this command to be in the dev workspace:
 $ terraform workspace select dev
 ```
 
-##A WS CLI
+## AWS CLI
 Go to https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html and install the aws cli on your computer.
 Then fill your credential with:
 ```console
